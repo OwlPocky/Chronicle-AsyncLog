@@ -1,0 +1,10 @@
+[22:56:49][0xf6770be556709a88][INFO][asynclogger][./test.cpp:14]	测试日志-1
+[22:56:49][0xf6770be556709a88][WARN][asynclogger][./test.cpp:15]	测试日志-2
+[22:56:49][0xf6770be556709a88][DEBUG][asynclogger][./test.cpp:16]	测试日志-3
+[22:56:49][0xf6770be556709a88][ERROR][asynclogger][./test.cpp:17]	测试日志-4
+[22:56:49][0xf6770be556709a88][FATAL][asynclogger][./test.cpp:18]	测试日志-5
+[22:56:49][0xf6770be556709a88][INFO][asynclogger][./test.cpp:14]	测试日志-6
+[22:56:49][0xf6770be556709a88][WARN][asynclogger][./test.cpp:15]	测试日志-7
+[22:56:49][0xf6770be556709a88][DEBUG][asynclogger][./test.cpp:16]	测试日志-8
+[22:56:49][0xf6770be556709a88][ERROR][asynclogger][./test.cpp:17]	测试日志-9
+[22:56:49][0xf6770be556709a88][FATAL][asynclogger][./test.cpp:18]	测试日志-10
