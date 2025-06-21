@@ -15,12 +15,12 @@ namespace Chronicle {
         LogMessage(LogLevel::value level, std::string file, size_t line,
                 std::string name, std::string payload) : 
                     _m_name(name),
-                    _m_file_name(file),
-                    _m_payload(payload),
-                    _m_level(level),
-                    _m_line(line),
                     _m_ctime(Util::Date::Now()),
-                    _m_tid(std::this_thread::get_id()) {}
+                    _m_file_name(file),
+                    _m_line(line),
+                    _m_tid(std::this_thread::get_id()),
+                    _m_level(level),
+                    _m_payload(payload) {}
         std::string format() {
             std::stringstream ret;
             // 获取当前时间

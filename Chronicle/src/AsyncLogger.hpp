@@ -161,8 +161,8 @@ namespace Chronicle {
     protected:
         std::mutex _m_mtx;
         std::string _m_logger_name;
-        std::vector<LogFlush::ptr> _m_flushs; // 输出到指定方向\
-    std::vector<LogFlush> flush_;不能使用logflush作为元素类型，logflush是纯虚类，不能实例化
+        std::vector<LogFlush::ptr> _m_flushs;   //用LogFlush子类实例化
+        // std::vector<LogFlush> flush_;不能使用logflush作为元素类型，logflush是纯虚类，不能实例化
         Chronicle::AsyncWorker::ptr _m_asyncworker;
     };
 

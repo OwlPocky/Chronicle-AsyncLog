@@ -30,7 +30,7 @@ namespace Chronicle {
                 if (filename.empty()){
                     return "";
                 }
-                int pos = filename.find_last_of("/\\");
+                std::string::size_type pos = filename.find_last_of("/\\");
                 if (pos != std::string::npos){
                     cout << "Util::Path() " << filename.substr(0, pos + 1) << endl; //./logfile/
                     return filename.substr(0, pos + 1); //substr第二个参数是截取长度, 截取到pos('/'或'\')为止
@@ -54,7 +54,7 @@ namespace Chronicle {
 
                 size_t start = 0;
                 size_t pos = 0;
-                const size_t size = normalizedPath.size();
+                //const size_t size = normalizedPath.size();
 
                 // 逐级创建目录（a/b/c/, 会依次创建a/、a/b/、a/b/c/）
                 while ((pos = normalizedPath.find_first_of("/\\", start)) != std::string::npos) {

@@ -24,9 +24,9 @@ namespace Chronicle {
 
         AsyncWorker(const CallBackFunc& cb, AsyncType async_type = AsyncType::ASYNC_SAFE):
             _m_async_type(async_type),
-            _m_callback_func(cb),
             _m_isStop(false),
-            _m_thread(std::thread(&AsyncWorker::ConsumerThreadEntry, this)) {}
+            _m_thread(std::thread(&AsyncWorker::ConsumerThreadEntry, this)),
+            _m_callback_func(cb) {}
         ~AsyncWorker() { Stop(); }
         AsyncWorker(const AsyncWorker&) = delete;
         AsyncWorker& operator=(const AsyncWorker&) = delete;

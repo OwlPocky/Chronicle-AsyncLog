@@ -40,7 +40,7 @@ void start_backup(const std::string &message){
     }
 
     // 3. 连接成功
-    char buffer[1024];
+    //char buffer[1024];
     std::cout << "连接成功!" << endl;
     
     // 4. 发送日志数据

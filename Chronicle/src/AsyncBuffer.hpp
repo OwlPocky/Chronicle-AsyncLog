@@ -27,7 +27,7 @@ namespace Chronicle{
         }
 
         //获取可读数据的起始地址, 需要指定读取的长度
-        char* ReadBegin(int len){
+        char* ReadBegin(size_t len){
             assert(len <= ReadableSize());
             return &_m_buffer[_m_read_pos];
         }
@@ -47,13 +47,13 @@ namespace Chronicle{
         }
 
         //向后移动写指针, 移动长度len字节
-        void MoveWritePos(int len){
+        void MoveWritePos(size_t len){
             assert(len <= WriteableSize());
             _m_write_pos += len;
         }
         
         //向后移动读指针, 移动长度len字节
-        void MoveReadPos(int len){
+        void MoveReadPos(size_t len){
             assert(len <= ReadableSize());
             _m_read_pos += len;
         }
@@ -81,7 +81,7 @@ namespace Chronicle{
         // - 容量小于阈值时, 按倍数扩容(指数增长)
         // - 容量超过阈值时, 按固定值扩容(线性增长)
         void CheckAndReserve(size_t len){
-            int buffersize = _m_buffer.size();
+            size_t buffersize = _m_buffer.size();
             //cout << "buffersize = " << buffersize << endl;
             if (len > WriteableSize()){
                 /*需要扩容*/
