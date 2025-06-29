@@ -50,6 +50,7 @@ namespace Chronicle {
             free(ret);
             ret = nullptr;
         };
+
         void Info(const std::string &file, size_t line, const std::string format,
                   ...) {
             va_list va;
@@ -83,6 +84,7 @@ namespace Chronicle {
             free(ret);
             ret = nullptr;
         };
+
         void Error(const std::string &file, size_t line, const std::string format,
                    ...) {
             va_list va;
@@ -99,6 +101,7 @@ namespace Chronicle {
             free(ret);
             ret = nullptr;
         };
+        
         void Fatal(const std::string &file, size_t line, const std::string format,
                    ...) {
             va_list va;
@@ -134,7 +137,7 @@ namespace Chronicle {
                 }
             }
             // 将日志数据推送到异步缓冲区, AsyncWoker自动调用回调函数处理缓冲区
-            Flush(data.c_str(), data.size());
+            PushToBuffer(data.c_str(), data.size());
 
             /*业务线程调用Push()将日志数据放入生产者缓冲区后，立即返回继续执行，而实际刷盘操作由后台线程异步处理*/
             // std::cout << "Debug:serialize Flush\n";
@@ -142,7 +145,7 @@ namespace Chronicle {
 
         // 推送日志数据到异步工作器, 由AsyncWorker的回调函数实现日志落地
         // 由AsyncWorker保证线程安全, 这里不需要加锁
-        void Flush(const char *data, size_t len) {
+        void PushToBuffer(const char *data, size_t len) {
             _m_asyncworker->Push(data, len); 
         }
 

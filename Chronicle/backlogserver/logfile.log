@@ -1,28 +1,7 @@
-192.168.206.136:47010[21:10:11][tid 140270171727680][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:47020[21:10:11][tid 140270171727680][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:47028[21:10:11][tid 140270171727680][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:47034[21:10:11][tid 140270171727680][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:47744[21:13:19][0x9ca04de2a3d19b54][][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:47754[21:13:26][0x9ca04de2a3d19b54][][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:47762[21:13:26][0x9ca04de2a3d19b54][][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:47768[21:13:26][0x9ca04de2a3d19b54][][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:47964[21:14:09][0x51890c10c93bab17][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:47978[21:14:09][0x51890c10c93bab17][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:47980[21:14:09][0x51890c10c93bab17][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:47984[21:14:09][0x51890c10c93bab17][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:34488[18:05:30][0xf98194d626a6ce51][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:34482[18:05:30][0xf98194d626a6ce51][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:34478[18:04:59][0xf98194d626a6ce51][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:34498[18:05:30][0xf98194d626a6ce51][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:34894[22:30:23][0x9f92c2d4b517ac27][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:34902[22:30:54][0x9f92c2d4b517ac27][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:34918[22:30:54][0x9f92c2d4b517ac27][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:34932[22:30:54][0x9f92c2d4b517ac27][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:35324[22:56:39][0x687cb8e6e9b9908c][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:35338[22:56:39][0x687cb8e6e9b9908c][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:35348[22:56:39][0x687cb8e6e9b9908c][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:35356[22:56:39][0x687cb8e6e9b9908c][FATAL][asynclogger][./test.cpp:18]	测试日志-10
-192.168.206.136:33590[22:56:49][0xf6770be556709a88][ERROR][asynclogger][./test.cpp:17]	测试日志-4
-192.168.206.136:33600[22:56:49][0xf6770be556709a88][FATAL][asynclogger][./test.cpp:18]	测试日志-5
-192.168.206.136:33616[22:56:49][0xf6770be556709a88][ERROR][asynclogger][./test.cpp:17]	测试日志-9
-192.168.206.136:33620[22:56:49][0xf6770be556709a88][FATAL][asynclogger][./test.cpp:18]	测试日志-10
+192.168.206.136:42560[16:41:26][0xbd669dad376c06ee][FATAL][asynclogger][./test.cpp:18]	测试日志-5
+192.168.206.136:42570[16:41:41][0xbd669dad376c06ee][ERROR][asynclogger][./test.cpp:17]	测试日志-9
+192.168.206.136:42574[16:41:41][0xbd669dad376c06ee][FATAL][asynclogger][./test.cpp:18]	测试日志-10
+192.168.206.136:52340[16:41:58][0x3c4dd523176797dc][ERROR][asynclogger][./test.cpp:17]	测试日志-4
+192.168.206.136:52348[16:41:58][0x3c4dd523176797dc][FATAL][asynclogger][./test.cpp:18]	测试日志-5
+192.168.206.136:52358[16:41:58][0x3c4dd523176797dc][ERROR][asynclogger][./test.cpp:17]	测试日志-9
+192.168.206.136:52364[16:41:58][0x3c4dd523176797dc][FATAL][asynclogger][./test.cpp:18]	测试日志-10
