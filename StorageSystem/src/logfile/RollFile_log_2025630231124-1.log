@@ -1,0 +1,34 @@
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][DataManager.hpp:60]	DataManager construct start
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][Config.hpp:32]	ReadConfig start
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][Config.hpp:26]	ReadConfig complicate
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][DataManager.hpp:75]	init datamanager
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][DataManager.hpp:78]	there is no storage file info need to load
+[23:11:24][0x79aca0584b0ab3f4][INFO][asynclogger][DataManager.hpp:66]	DataManager construct end
+[23:11:24][0x38690ed3ae9ec232][DEBUG][asynclogger][Service.hpp:25]	Service start(Construct)
+[23:11:24][0x38690ed3ae9ec232][DEBUG][asynclogger][Service.hpp:32]	Service end(Construct)
+[23:11:24][0x38690ed3ae9ec232][INFO][asynclogger][Test.cpp:12]	service step in Run()
+[23:11:24][0x38690ed3ae9ec232][DEBUG][asynclogger][Service.hpp:64]	event_base_dispatch
+[23:11:27][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:94]	get req, uri: /
+[23:11:27][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:269]	ListShow()
+[23:11:27][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:296]	ListShow() finish
+[23:11:37][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:94]	get req, uri: /upload
+[23:11:37][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:116]	Upload start
+[23:11:37][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:126]	evbuffer_get_length is 204981076
+[23:11:38][0x38690ed3ae9ec232][DEBUG][asynclogger][Service.hpp:172]	storage_path:./low_storage/MSTeams-x64 - 副本 (1).msix
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:184]	low_storage success
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:18]	NewStorageInfo start
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:44]	download_url:/download/MSTeams-x64 - 副本 (1).msix, mtime:2025-06-30 23:11:38, atime:2025-06-30 23:11:38, fsize:204981076
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:45]	NewStorageInfo end
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:144]	data_message Insert start
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:107]	message storage start
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:128]	new message for StorageInfo:
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:138]	message storage end
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][DataManager.hpp:153]	data_message Insert end
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:205]	upload finish:success
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:94]	get req, uri: /
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:269]	ListShow()
+[23:11:38][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:296]	ListShow() finish
+[23:12:01][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:94]	get req, uri: /download/MSTeams-x64 - 副本 (1).msix
+[23:12:01][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:414]	request resource_path:/download/MSTeams-x64 - 副本 (1).msix
+[23:12:01][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:418]	request download_path:./low_storage/MSTeams-x64 - 副本 (1).msix
+[23:12:01][0x38690ed3ae9ec232][INFO][asynclogger][Service.hpp:562]	evhttp_send_reply: HTTP_OK

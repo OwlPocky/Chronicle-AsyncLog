@@ -26,3 +26,5 @@
 [16:43:05][0x35b5d65b3d3ec3a8][INFO][asynclogger][./test.cpp:14]	测试日志-6
 [16:43:05][0x35b5d65b3d3ec3a8][WARN][asynclogger][./test.cpp:15]	测试日志-7
 [16:43:05][0x35b5d65b3d3ec3a8][DEBUG][asynclogger][./test.cpp:16]	测试日志-8
+[16:43:05][0x35b5d65b3d3ec3a8][ERROR][asynclogger][./test.cpp:17]	测试日志-9
+[16:43:36][0x35b5d65b3d3ec3a8][FATAL][asynclogger][./test.cpp:18]	测试日志-10

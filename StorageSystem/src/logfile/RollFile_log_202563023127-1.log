@@ -1,0 +1,18 @@
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][DataManager.hpp:60]	DataManager construct start
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][Config.hpp:32]	ReadConfig start
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][Config.hpp:26]	ReadConfig complicate
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][DataManager.hpp:75]	init datamanager
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][DataManager.hpp:144]	data_message Insert start
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][DataManager.hpp:153]	data_message Insert end
+[23:12:07][0x29792bfec9f4c8f8][INFO][asynclogger][DataManager.hpp:66]	DataManager construct end
+[23:12:07][0x651b11cbac43f57d][DEBUG][asynclogger][Service.hpp:25]	Service start(Construct)
+[23:12:07][0x651b11cbac43f57d][DEBUG][asynclogger][Service.hpp:32]	Service end(Construct)
+[23:12:07][0x651b11cbac43f57d][INFO][asynclogger][Test.cpp:12]	service step in Run()
+[23:12:07][0x651b11cbac43f57d][DEBUG][asynclogger][Service.hpp:64]	event_base_dispatch
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:94]	get req, uri: /download/MSTeams-x64 - 副本 (1).msix
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:414]	request resource_path:/download/MSTeams-x64 - 副本 (1).msix
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:418]	request download_path:./low_storage/MSTeams-x64 - 副本 (1).msix
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:457]	./low_storage/MSTeams-x64 - 副本 (1).msix need breakpoint continuous transmission
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:517]	Range: bytes 36192048-204981075/204981076
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:555]	Content-Range: bytes 36192048-204981075/204981076
+[23:12:10][0x651b11cbac43f57d][INFO][asynclogger][Service.hpp:567]	evhttp_send_reply: 206

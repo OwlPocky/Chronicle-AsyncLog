@@ -169,7 +169,7 @@ namespace Chronicle {
                         perror(NULL);
                     }
                     Json::Value root;
-                    Chronicle::Util::JsonUtil::UnSerialize(content, &root); // 反序列化，把内容转成json value格式
+                    Chronicle::Util::JsonUtil::UnSerialize(content, &root);
                     buffer_size = root["buffer_size"].asInt64();
                     threshold = root["threshold"].asInt64();
                     linear_growth = root["linear_growth"].asInt64();

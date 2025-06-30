@@ -1,0 +1,28 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-std=c++17",
+            "-I./include",
+            "-o",
+            "test",
+            "Test.cpp"
+        ],
+        "directory": "/root/projects/Chronicle-AsyncLog/StorageSystem/src",
+        "file": "Test.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-std=c++17",
+            "-I./include",
+            "-o",
+            "test",
+            "base64.cpp"
+        ],
+        "directory": "/root/projects/Chronicle-AsyncLog/StorageSystem/src",
+        "file": "base64.cpp"
+    }
+]

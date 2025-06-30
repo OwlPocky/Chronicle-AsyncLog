@@ -5,3 +5,8 @@
 192.168.206.136:52348[16:41:58][0x3c4dd523176797dc][FATAL][asynclogger][./test.cpp:18]	测试日志-5
 192.168.206.136:52358[16:41:58][0x3c4dd523176797dc][ERROR][asynclogger][./test.cpp:17]	测试日志-9
 192.168.206.136:52364[16:41:58][0x3c4dd523176797dc][FATAL][asynclogger][./test.cpp:18]	测试日志-10
+192.168.206.136:59874[23:14:55][0xb01d5fc0069d23f2][FATAL][asynclogger][Service.hpp:49]	evhttp_bind_socket failed!
+192.168.206.136:40538[23:15:54][0xffbfc8b653109c94][FATAL][asynclogger][Service.hpp:49]	evhttp_bind_socket failed!
+192.168.206.136:49212[23:16:55][0x831c4c2264c4236e][FATAL][asynclogger][Service.hpp:49]	evhttp_bind_socket failed!
+192.168.206.136:57104[23:18:09][0x86250198bdd00d96][FATAL][asynclogger][Service.hpp:49]	evhttp_bind_socket failed!
+192.168.206.136:43722[23:20:08][0x4d9edad94778d6ca][FATAL][asynclogger][Service.hpp:49]	evhttp_bind_socket failed!
